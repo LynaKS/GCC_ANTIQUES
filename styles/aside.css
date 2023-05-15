@@ -1,7 +1,7 @@
 aside {
     width: 22.36%;
     height: auto;
-    border-right: 1px solid #BFBFBF;
+    overflow-y: auto;
 }
 
 .category {
@@ -108,7 +108,7 @@ aside {
 
 }
 
-input[type="checkbox"] {
+input[type="checkbox"], input[type="radio"] {
     display: none;
 }
 
@@ -134,7 +134,7 @@ input[type="checkbox"]:checked~label::before {
 
 }
 
-/* input[type="radio"] ~ label::before {
+input[type="radio"] ~ label::before {
     content: '';
     width: 25px;
     height: 25px;
@@ -155,7 +155,8 @@ input[type="radio"]:checked ~ label::before {
     font-size: 24px;
     display: flex;
     margin-left: -16px;
-} */
+    padding: 1px;
+}
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     aside {
         width: 40%;

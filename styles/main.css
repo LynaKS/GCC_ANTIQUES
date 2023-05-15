@@ -17,6 +17,20 @@ li {
 a {
     text-decoration: none;
 }
+.breadcrumbs-container {
+    max-width: 1480px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.breadcrumbs {
+    color: #C0C0C0;
+}
+.breadcrumbs-container a {
+    color: #C0C0C0;
+}
+a.current-page {
+    color: #2F2F2F !important;
+}
 .main-content__wrap {
     max-width: 1480px;
     margin: 0 auto;
@@ -48,6 +62,9 @@ a {
 }
 .item:hover .add-card {
     display: block;
+}
+.item img {
+    background: radial-gradient(50% 30% at 50% 66%, rgba(0, 0, 0, 0.62) 0%, rgba(0, 0, 0, 0) 100%);
 }
 .sale {
     position: absolute;

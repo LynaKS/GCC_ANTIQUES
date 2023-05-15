@@ -56,14 +56,17 @@
                         <li><img src="img/log-in-m.svg" alt="Log in icon"></li>
                         <li><img src="img/basket-m.svg" alt="Basket"></li>
                     </ul>
-        </div>
-        </ul>
+                </ul>
 
-        </nav>
+            </nav>
         </div>
     </header>
     <main>
-        <div class="breadcrumbs"></div>
+        <div class="breadcrumbs-container">
+            <div class="breadcrumbs">
+                <a href="#">Home</a> / <a class="current-page" href="#">Shop</a>
+            </div>
+        </div>
         <div class="main-content__wrap">
             <aside>
                 <button class="accordion">Category</button>
@@ -88,15 +91,15 @@
                     <form id="price" class="price" action="">
                         <div class="input-wrap">
                             <input type="radio" name="Lower price" id="lower-price" checked>
-                            <label for="lower-price" dir="auto">50.000 ر.ع. - 0 ر.ع.</label>
+                            <label for="lower-price"><span dir="auto">50.000 ر.ع. - 0 ر.ع.</span></label>
                         </div>
                         <div class="input-wrap">
                             <input type="radio" name="Middle price" id="middle-price">
-                            <label for="middle-price" dir="auto">100.000 ر.ع. - 50.000 ر.ع. </label>
+                            <label for="middle-price"><span dir="auto">100.000 ر.ع. - 50.000 ر.ع.</span></label>
                         </div>
                         <div class="input-wrap">
                             <input type="radio" name="High price" id="high-price">
-                            <label for="high-price" dir="auto">300.000 ر.ع. - 150.000 ر.ع.</label>
+                            <label for="high-price"><span dir="auto">300.000 ر.ع. - 150.000 ر.ع.</span></label>
                         </div>
                         <div class="input-wrap price-inp">
                             <div>
