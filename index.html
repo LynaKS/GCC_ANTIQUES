@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCC Antiques</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/aside.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/mob-menu.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="main-logo">
+                <img src="img/logo.svg" alt="Logo GCC Antiques">
+            </div>
+
+            <nav class="menu-wrap">
+                <ul>
+                    <li><a href="/">Shop</a></li>
+                    <li><a href="/">Auction</a></li>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/">Faq</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+                <div class="header-actions">
+                    <img src="img/search.svg" alt="Search icon">
+                    <img src="img/log-in.svg" alt="Log in icon">
+                    <img src="img/basket.svg" alt="Basket">
+                </div>
+            </nav>
+            <nav class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-btn">
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+
+                <ul class="nav-list">
+                    <li><a href="/">Shop</a></li>
+                    <li><a href="/">Auction</a></li>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/">Faq</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <ul>
+                        <li><img src="img/search-m.svg" alt="Search icon"></li>
+                        <li><img src="img/log-in-m.svg" alt="Log in icon"></li>
+                        <li><img src="img/basket-m.svg" alt="Basket"></li>
+                    </ul>
+        </div>
+        </ul>
+
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div class="breadcrumbs"></div>
+        <div class="main-content__wrap">
+            <aside>
+                <button class="accordion">Category</button>
+                <div class="panel">
+                    <form id="category" class="category" action="">
+                        <div class="input-wrap">
+                            <input type="checkbox" name="Bank Notes" id="bank-notes">
+                            <label for="bank-notes">Bank Notes</label>
+                        </div>
+                        <div class="input-wrap">
+                            <input type="checkbox" name="Book" id="book" checked>
+                            <label for="book">Book</label>
+                        </div>
+                        <div class="input-wrap">
+                            <input type="checkbox" name="Cassetes" id="cassetes">
+                            <label for="cassetes">Cassetes</label>
+                        </div>
+                    </form>
+                </div>
+                <button class="accordion">Price</button>
+                <div class="panel">
+                    <form id="price" class="price" action="">
+                        <div class="input-wrap">
+                            <input type="radio" name="Lower price" id="lower-price" checked>
+                            <label for="lower-price" dir="auto">50.000 ر.ع. - 0 ر.ع.</label>
+                        </div>
+                        <div class="input-wrap">
+                            <input type="radio" name="Middle price" id="middle-price">
+                            <label for="middle-price" dir="auto">100.000 ر.ع. - 50.000 ر.ع. </label>
+                        </div>
+                        <div class="input-wrap">
+                            <input type="radio" name="High price" id="high-price">
+                            <label for="high-price" dir="auto">300.000 ر.ع. - 150.000 ر.ع.</label>
+                        </div>
+                    </form>
+                </div>
+                <button class="accordion">Year</button>
+                <div class="panel">
+                    <form id="category" class="category" action="">
+                        <div class="input-wrap">
+                            <input type="checkbox" name="1978" id="year-1978">
+                            <label for="year-1978">1978</label>
+                        </div>
+                        <div class="input-wrap">
+                            <input type="checkbox" name="1956" id="year-1956">
+                            <label for="year-1956">1956</label>
+                        </div>
+                        <div class="input-wrap">
+                            <input type="checkbox" name="1934" id="year-1934">
+                            <label for="year-1934">1934</label>
+                        </div>
+                    </form>
+                </div>
+                <button class="accordion">Country</button>
+                <div class="panel">
+                    <form id="country" class="country" action="">
+                        <div class="input-wrap">
+                            <input type="checkbox" name="Germany" id="germany">
+                            <label for="germany">Germany</label>
+                        </div>
+                        <div class="input-wrap">
+                            <input type="checkbox" name="Poland" id="poland">
+                            <label for="poland">Poland</label>
+                        </div>
+                        <div class="input-wrap">
+                            <input type="checkbox" name="Italy" id="italy">
+                            <label for="italy">Italy</label>
+                        </div>
+                    </form>
+                </div>
+                <button class="accordion">Condition</button>
+                <div class="panel">
+                    <form id="condition" class="condition" action="">
+                        <div class="input-wrap">
+                            <input type="checkbox" name="unc" id="unc">
+                            <label for="unc">UNC</label>
+                        </div>
+
+                    </form>
+                </div>
+                <button class="accordion">Author</button>
+                <div class="panel">
+                    <form id="condition" class="author" action="">
+                        <div class="input-wrap">
+                            <input type="checkbox" name="unc" id="unc">
+                            <label for="unc">UNC</label>
+                        </div>
+
+                    </form>
+                </div>
+                <button class="accordion">ISBN</button>
+                <div class="panel">
+                    <form id="condition" class="isbn" action="">
+                        <div class="input-wrap">
+                            <input type="checkbox" name="" id="">
+                            <label for="">UNC</label>
+                        </div>
+
+                    </form>
+                </div>
+                <button class="accordion">Publisher</button>
+                <div class="panel">
+                    <form id="publisher" class="publisher" action="">
+                        <div class="input-wrap">
+                            <input type="checkbox" name="" id="">
+                            <label for="">UNC</label>
+                        </div>
+
+                    </form>
+                </div>
+                <button class="accordion">Pick Number</button>
+                <div class="panel">
+                    <form id="pick-number" class="pick-number" action="">
+                        <div class="input-wrap">
+                            <input type="checkbox" name="unc" id="unc">
+                            <label for="unc">UNC</label>
+                        </div>
+
+                    </form>
+                </div>
+            </aside>
+            <div class="content-container">
+                <div class="content">
+                    <div class="item">
+                        <div class="sale">40% Off</div>
+                        <img src="img/item.png" alt="">
+                        <p class="item-title">CHRONO GUNMETAL TAN</p>
+                        <div class="price-wrap">
+                            <div class="recent-price" dir="rtl">60.000 <span>ر.ع. </span></div>
+                            <div class="old-price" dir="rtl">51.000 <span>ر.ع. </span></div>
+                        </div>
+                        <button class="add-card">Add to Card</button>
+                    </div>
+                    <div class="item">
+                        <img src="img/item.png" alt="">
+                        <p class="item-title">CHRONO GUNMETAL TAN</p>
+                        <div class="price-wrap">
+                            <div class="recent-price" dir="rtl">60.000 <span>ر.ع. </span></div>
+                        </div>
+                        <button class="add-card">Add to Card</button>
+                    </div>
+                    <div class="item">
+                        <div class="sale">40% Off</div>
+                        <img src="img/item.png" alt="">
+                        <p class="item-title">CHRONO GUNMETAL TAN</p>
+                        <div class="price-wrap">
+                            <div class="recent-price" dir="rtl">60.000 <span>ر.ع. </span></div>
+                            <div class="old-price" dir="rtl">51.000 <span>ر.ع. </span></div>
+                        </div>
+                        <button class="add-card">Add to Card</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="f-wrap">
+            <div class="footer-container">
+                <div class="f-company-info">
+                    <div class="footer-logo">
+                        <img src="img/footer-logo.svg" alt="Footer logo">
+                    </div>
+                    <div class="social-container">
+                        <img src="img/Facebook.svg" alt="Facebook">
+                        <img src="img/Inst.svg" alt="Instagram">
+                        <img src="img/Twitter.svg" alt="Twitter">
+                        <img src="img/Pinterest.svg" alt="Pinterest">
+                    </div>
+                    <div class="f-content">
+                        <p>GCC Antiques specializes in sourcing and building unique collections of antiques and
+                            collectibles, including coins, banknotes, stamps and other rare and valuable items.</p>
+                    </div>
+                </div>
+                <div class="f-nav">
+                    <ul>
+                        <li class="f-nav__title">Shop</li>
+                        <li class="f-nav__item"><a href="/">Bank Notes</a></li>
+                        <li class="f-nav__item"><a href="/">Cassetes</a></li>
+                        <li class="f-nav__item"><a href="/">Book</a></li>
+                    </ul>
+
+                    <ul>
+                        <li class="f-nav__title">Help & Support</li>
+                        <li class="f-nav__item"><a href="/">Faq</a></li>
+                        <li class="f-nav__item"><a href="/">Contact</a></li>
+                        <li class="f-nav__item"><a href="/">Privacy Policy</a></li>
+                        <li class="f-nav__item"><a href="/">Supplies</a></li>
+                        <li class="f-nav__item"><a href="/">Terms & Condition</a></li>
+                    </ul>
+
+                    <ul>
+                        <li class="f-nav__title">GCC Antiques</li>
+                        <li class="f-nav__item"><a href="/">Blog</a></li>
+                        <li class="f-nav__item"><a href="/">Auction</a></li>
+                        <li class="f-nav__item"><a href="/">About</a></li>
+                    </ul>
+
+                    <ul>
+                        <li class="f-nav__title">We accept</li>
+                        <li class="f-nav__item">
+                            <a href="/"><img src="img/masterCard.svg" alt="master Card"></a>
+                            <a href="/"><img src="img/visa.svg" alt="visa"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright-container">
+            <div class="copyright">
+                <p>&copy; GCC Antiques 2023</p>
+            </div>
+            <ul class="">
+                <li><a href="/">Privacy Policy</a></li>
+                <li><a href="/">Terms of use</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/accordion.js"></script>
+</body>
+
+</html>

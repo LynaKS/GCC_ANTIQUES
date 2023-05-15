@@ -1,0 +1,136 @@
+.header-container {
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-logo {
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-logo img {
+    width: 157px;
+    height: 87px;
+}
+
+.menu-wrap {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 0.8px solid #BFBFBF;
+    border-bottom: 0.8px solid #BFBFBF;
+    margin-top: 27px;
+}
+
+.menu-wrap ul {
+    max-width: 638px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.menu-wrap li a {
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-right: 55px;
+}
+
+.menu-wrap li a:hover {
+    color: #A43037;
+}
+
+.menu-wrap li:last-child a {
+    margin-right: 0;
+}
+
+.menu-wrap li:last-child {
+    margin-right: -150px;
+}
+
+.header-actions {
+    display: flex;
+}
+
+.header-actions img {
+    margin-left: 16px;
+}
+
+@media screen and (max-width: 575px) {
+
+    .main-logo {
+        justify-content: flex-start;
+    }
+}
+
+.nav-list {
+    display: none;
+}
+
+.nav>.nav-list>li a {
+    text-decoration: none;
+    color: #efefef;
+    cursor: pointer;
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .menu-wrap {
+        display: none;
+    }
+    
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 40px;
+        padding-top: 0.2rem;
+    }
+
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #2F2F2F;
+    }
+
+    .nav>.nav-list {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+        background-color: #2F2F2F;
+        height: 0;
+        transition: all 0.3s ease-in;
+        top: 110px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .nav>.nav-list>li {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .nav>#nav-check:checked~.nav-list {
+        height: calc(100vh - 50px);
+    }
+    .nav>.nav-list>ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 20px;
+    }
+}
