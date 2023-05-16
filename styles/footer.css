@@ -2,22 +2,27 @@ footer {
     background-color: #F6F6F6;
     color: #626262;
 }
-a, p {
+
+a,
+p {
     font-weight: 300;
 }
+
 .f-wrap {
     border-top: 1px solid #D2D2D2;
     border-bottom: 1px solid #D2D2D2;
 
 }
-.footer-container, 
+
+.footer-container,
 .copyright-container {
-    max-width: 1480px;
+    max-width: 1370px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 25px;
     display: flex;
     flex-wrap: wrap;
 }
+
 .copyright-container {
     padding: 16px 20px;
 }
@@ -28,17 +33,20 @@ a, p {
     padding: 39px 32px 44px 0;
 
 }
+
 .social-container {
     margin: 43px 0;
     width: 148px;
     display: flex;
     justify-content: space-between;
 }
+
 .f-content p {
     font-size: 17px;
     line-height: 24px;
-
+    color: #626262;
 }
+
 .f-nav {
     max-width: 820px;
     padding: 39px 0 48px;
@@ -47,12 +55,15 @@ a, p {
     justify-content: space-between;
     margin-left: 72px;
 }
+
 .f-nav ul {
     margin-right: 83px;
 }
+
 .f-nav ul:last-child {
     margin-right: 0;
 }
+
 .f-nav li {
     width: max-content;
 
@@ -60,44 +71,67 @@ a, p {
 
 .f-nav a {
     font-size: 18px;
+    color: #505050;
+}
+
+.f-nav a:hover,
+.copyright-container a:hover {
+    color: #A43037;
 }
 
 .f-nav__item {
     padding-bottom: 16px;
 }
+
 .f-nav__title {
     padding-bottom: 18px;
     font-size: 19px;
     text-transform: uppercase;
     font-weight: 400;
 }
+
 .copyright {
     width: 42%;
 
 }
-.copyright-container p, .copyright-container a {
-    color: #505050;
+
+.copyright-container p,
+.copyright-container a {
     font-size: 14px;
 
 }
+
+.copyright-container p {
+    color: #817B7B;
+}
+
+.copyright-container a {
+    color: #505050;
+}
+
 .copyright-container ul {
     display: flex;
 }
+
 .copyright-container li:first-child {
     border-right: 1.5px solid #D2D2D2;
     margin-right: 15px;
 }
+
 .copyright-container a {
     padding-right: 15px;
 }
+
 @media screen and (max-width: 575px) {
     .copyright {
         width: 100%;
         margin-bottom: 16px;
     }
+
     .f-company-info {
         border: none;
     }
+
     .f-nav {
         margin-left: 0;
         padding-top: 0;
