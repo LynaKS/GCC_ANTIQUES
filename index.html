@@ -96,15 +96,15 @@
                 <div class="panel">
                     <form id="price" class="price" action="">
                         <div class="input-wrap">
-                            <input type="radio" name="Lower price" id="lower-price" checked>
+                            <input type="radio" name="price" id="lower-price" checked>
                             <label for="lower-price"><span dir="auto">50.000 ر.ع. - 0 ر.ع.</span></label>
                         </div>
                         <div class="input-wrap">
-                            <input type="radio" name="Middle price" id="middle-price">
+                            <input type="radio" name="price" id="middle-price">
                             <label for="middle-price"><span dir="auto">100.000 ر.ع. - 50.000 ر.ع.</span></label>
                         </div>
                         <div class="input-wrap">
-                            <input type="radio" name="High price" id="high-price">
+                            <input type="radio" name="price" id="high-price">
                             <label for="high-price"><span dir="auto">300.000 ر.ع. - 150.000 ر.ع.</span></label>
                         </div>
                         <div class="input-wrap price-inp">
@@ -157,47 +157,42 @@
                             <input type="checkbox" name="unc" id="unc">
                             <label for="unc">UNC</label>
                         </div>
-
                     </form>
                 </div>
                 <button class="accordion">Author</button>
                 <div class="panel">
                     <form id="condition" class="author" action="">
                         <div class="input-wrap">
-                            <input type="checkbox" name="unc" id="unc">
-                            <label for="unc">UNC</label>
+                            <input type="checkbox" name="author-1" id="author-1">
+                            <label for="author-1">Author</label>
                         </div>
-
                     </form>
                 </div>
                 <button class="accordion">ISBN</button>
                 <div class="panel">
                     <form id="condition" class="isbn" action="">
                         <div class="input-wrap">
-                            <input type="checkbox" name="" id="">
-                            <label for="">UNC</label>
+                            <input type="checkbox" name="ISBN" id="ISBN">
+                            <label for="ISBN">ISBN</label>
                         </div>
-
                     </form>
                 </div>
                 <button class="accordion">Publisher</button>
                 <div class="panel">
                     <form id="publisher" class="publisher" action="">
                         <div class="input-wrap">
-                            <input type="checkbox" name="" id="">
-                            <label for="">UNC</label>
+                            <input type="checkbox" name="Publisher" id="Publisher">
+                            <label for="Publisher">Publisher</label>
                         </div>
-
                     </form>
                 </div>
                 <button class="accordion">Pick Number</button>
                 <div class="panel">
                     <form id="pick-number" class="pick-number" action="">
                         <div class="input-wrap">
-                            <input type="checkbox" name="unc" id="unc">
-                            <label for="unc">UNC</label>
+                            <input type="checkbox" name="Pick Number" id="pick-number">
+                            <label for="pick-number">UNC</label>
                         </div>
-
                     </form>
                 </div>
             </aside>
@@ -205,31 +200,37 @@
                 <div class="content">
                     <div class="item">
                         <div class="sale">40% Off</div>
-                        <img src="img/item.png" alt="">
+                        <div class="item-img">
+                            <img src="img/item.png" alt="">
+                        </div>
                         <p class="item-title">CHRONO GUNMETAL TAN</p>
                         <div class="price-wrap">
                             <div class="recent-price" dir="rtl">60.000 <span>ر.ع. </span></div>
                             <div class="old-price" dir="rtl">51.000 <span>ر.ع. </span></div>
                         </div>
-                        <button class="add-card show">Add to Card</button>
+                        <button class="add-card">Add to Card</button>
                     </div>
                     <div class="item">
-                        <img src="img/item.png" alt="">
+                        <div class="item-img">
+                            <img src="img/item.png" alt="">
+                        </div>
                         <p class="item-title">CHRONO GUNMETAL TAN</p>
                         <div class="price-wrap">
                             <div class="recent-price" dir="rtl">60.000 <span>ر.ع. </span></div>
                         </div>
-                        <button class="add-card show ">Add to Card</button>
+                        <button class="add-card">Add to Card</button>
                     </div>
                     <div class="item">
                         <div class="sale">40% Off</div>
-                        <img src="img/item.png" alt="">
+                        <div class="item-img">
+                            <img src="img/item.png" alt="">
+                        </div>
                         <p class="item-title">CHRONO GUNMETAL TAN</p>
                         <div class="price-wrap">
                             <div class="recent-price" dir="rtl">60.000 <span>ر.ع. </span></div>
                             <div class="old-price" dir="rtl">51.000 <span>ر.ع. </span></div>
                         </div>
-                        <button class="add-card show ">Add to Card</button>
+                        <button class="add-card">Add to Card</button>
                     </div>
                 </div>
             </div>
@@ -309,6 +310,7 @@
         </div>
     </footer>
     <script src="js/accordion.js"></script>
+    <script src="js/btn-transition.js"></script>
 </body>
 
 </html>
