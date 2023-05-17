@@ -22,24 +22,10 @@ aside {
 
 .accordion:after {
     content: url('/img/active.svg');
-    height: 1.5px;
-    width: 15px;
-    background-color: #2F2F2F;
-    color: #2F2F2F;
-    float: right;
-    font-size: 24px;
 }
-/* .accordion:before {
-    content: '';
-    height: 15px;
-    width: 1.5px;
-    background-color: #2F2F2F;
-    color: #2F2F2F;
-    float: left;
-    font-size: 24px;
-} */
+
 .active:after {
-    content: "\2212";
+    content: url('/img/not-active.svg');
 }
 
 .panel {
