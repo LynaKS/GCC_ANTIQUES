@@ -66,6 +66,9 @@ p {
     font-family: 'SF UI Display', sans-serif;
     color: #2F2F2F;
 }
+a:visited, a:active {
+    color: #2F2F2F;
+}
 
 main {
     padding-bottom: 79px;
@@ -217,10 +220,12 @@ a.current-page {
 
     .content {
         padding: 0;
+        margin-left: 0;
     }
 
     .add-card {
         display: block;
+        opacity: 1;
     }
 
     .item {

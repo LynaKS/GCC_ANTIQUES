@@ -125,10 +125,23 @@ p {
 
     .f-company-info {
         border: none;
+        width: 100%;
     }
 
     .f-nav {
         margin-left: 0;
         padding-top: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .copyright-container {
+        padding: 16px 25px;
+        display: flex;
+        flex-direction: column;
     }
 }
