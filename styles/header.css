@@ -44,10 +44,6 @@
     margin-right: 0;
 }
 
-.menu-wrap li:last-child {
-    margin-right: -150px;
-}
-
 .header-actions {
     display: flex;
     margin-right: 10px;

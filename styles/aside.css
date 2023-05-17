@@ -1,5 +1,5 @@
 aside {
-    width: 24%;
+    width: 28%;
     height: auto;
 }
 
@@ -33,7 +33,7 @@ aside {
     margin-bottom: 17px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: max-height 0.5s ease-out;
 }
 
 .input-wrap {
@@ -90,6 +90,9 @@ aside {
     align-items: center;
 }
 
+.input-wrap span {
+    font-size: 19px;
+}
 @media screen and (max-width: 575px) {
     aside {
         width: 100%;

@@ -1,12 +1,68 @@
-@import url('https://fonts.cdnfonts.com/css/sf-ui-display');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body, a, p {
+@font-face {
+    font-family: sf ui display;
+    font-style: normal;
+    font-weight: 100;
+    src: local('SF UI Display'), url(https://fonts.cdnfonts.com/s/14247/sf-ui-display-ultralight-58646b19bf205.woff) format('woff')
+}
+
+@font-face {
+    font-family: sf ui display;
+    font-style: normal;
+    font-weight: 200;
+    src: local('SF UI Display'), url(https://fonts.cdnfonts.com/s/14247/sf-ui-display-thin-58646e9b26e8b.woff) format('woff')
+}
+
+@font-face {
+    font-family: sf ui display;
+    font-style: normal;
+    font-weight: 300;
+    src: local('SF UI Display'), url(https://fonts.cdnfonts.com/s/14247/sf-ui-display-light-58646b33e0551.woff) format('woff')
+}
+
+@font-face {
+    font-family: sf ui display;
+    font-style: normal;
+    font-weight: 500;
+    src: local('SF UI Display'), url(https://fonts.cdnfonts.com/s/14247/sf-ui-display-medium-58646be638f96.woff) format('woff')
+}
+
+@font-face {
+    font-family: sf ui display;
+    font-style: normal;
+    font-weight: 600;
+    src: local('SF UI Display'), url(https://fonts.cdnfonts.com/s/14247/sf-ui-display-semibold-58646eddcae92.woff) format('woff')
+}
+
+@font-face {
+    font-family: sf ui display;
+    font-style: normal;
+    font-weight: 700;
+    src: local('SF UI Display'), url(https://fonts.cdnfonts.com/s/14247/sf-ui-display-bold-58646a511e3d9.woff) format('woff')
+}
+
+@font-face {
+    font-family: sf ui display;
+    font-style: normal;
+    font-weight: 800;
+    src: local('SF UI Display'), url(https://fonts.cdnfonts.com/s/14247/sf-ui-display-heavy-586470160b9e5.woff) format('woff')
+}
+
+@font-face {
+    font-family: sf ui display;
+    font-style: normal;
+    font-weight: 900;
+    src: local('SF UI Display'), url(https://fonts.cdnfonts.com/s/14247/sf-ui-display-black-58646a6b80d5a.woff) format('woff')
+}
+
+body,
+a,
+p {
     font-family: 'SF UI Display', sans-serif;
     color: #2F2F2F;
 }
@@ -59,7 +115,7 @@ a.current-page {
 }
 
 .content-container {
-    width: 76%;
+    width: 72%;
 }
 
 .content {
@@ -68,13 +124,13 @@ a.current-page {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding-left: 30px;
+    margin-left: 30px;
     row-gap: 40px;
-    column-gap: 43px;
+    column-gap: 20px;
 }
 
 .item {
-    max-width: 294px;
+    max-width: 290px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -95,6 +151,7 @@ a.current-page {
 }
 
 .item img {
+    width: 100%;
     background: radial-gradient(50% 30% at 50% 66%, rgba(0, 0, 0, 0.62) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
