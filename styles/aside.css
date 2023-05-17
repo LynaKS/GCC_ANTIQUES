@@ -10,7 +10,7 @@ aside {
 }
 
 .accordion {
-    width: 292px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     font-size: 19px;
@@ -22,7 +22,7 @@ aside {
 }
 
 .accordion:after {
-    content: '';
+    content: url('/img/active.svg');
     height: 1.5px;
     width: 15px;
     background-color: #2F2F2F;
@@ -45,7 +45,6 @@ aside {
 
 .panel {
     border-bottom: 0.8px solid #BFBFBF;
-    margin-right: 24px;
     margin-bottom: 17px;
     max-height: 0;
     overflow: hidden;
@@ -59,12 +58,17 @@ aside {
 }
 
 .price-inp {
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
 }
 
+.price-inp div {
+    display: flex;
+    gap: 14px;
+}
+
 .input-wrap.price-inp input {
-    width: 139px;
+    width: 100%;
     height: 38px;
     border: 1px solid #DDDDDD;
     font-size: 19px;
@@ -74,15 +78,17 @@ aside {
 }
 
 .input-wrap.price-inp input:first-child {
-    margin-right: 14px;
+    /* margin-right: 14px; */
 }
 
 .price-inp button {
+    width: 100%;
+    height: 39px;
     background-color: #A43037;
     color: #ffffff;
     font-size: 19px;
     border: none;
-    padding: 8px 122px;
+    /* padding: 8px 122px; */
     margin-top: 17px;
     cursor: pointer;
 }
